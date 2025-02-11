@@ -13,11 +13,13 @@ export default function Home() {
       type: "Single Ticket",
       price: "₹149",
       description: "Perfect for solo celebration",
+      formLink: "https://docs.google.com/forms/d/1iefQ9f1VBQBh73ndko082MTYSKdovXB-0fzb5tLF4zs/edit",
     },
     {
       type: "Couple Ticket",
       price: "₹249",
       description: "Share the joy with your partner",
+      formLink: "https://docs.google.com/forms/d/1iefQ9f1VBQBh73ndko082MTYSKdovXB-0fzb5tLF42ss",
     },
   ];
 
@@ -31,7 +33,7 @@ export default function Home() {
           <p className="text-xl text-white/90 mb-8">
             Join us for the most colorful celebration of the year!
           </p>
-          
+
           {/* Team Header */}
           <div className="bg-white/20 backdrop-blur-md rounded-xl p-6 mb-12 max-w-2xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-2">
@@ -65,13 +67,7 @@ export default function Home() {
                 </div>
                 <Button
                   className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-lg py-6"
-                  onClick={() =>
-                    router.push(
-                      `/booking?type=${encodeURIComponent(
-                        ticket.type
-                      )}&price=${encodeURIComponent(ticket.price)}`
-                    )
-                  }
+                  onClick={() => router.push(ticket.formLink)}
                 >
                   Book Now
                 </Button>
@@ -85,7 +81,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto px-4 sm:px-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Date & Time</h3>
-              <p className="text-lg mb-2">March 25, 2025</p>
+              <p className="text-lg mb-2">March 9, 2025</p>
               <p className="text-lg">10:00 AM - 6:00 PM</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
