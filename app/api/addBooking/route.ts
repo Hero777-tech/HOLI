@@ -44,7 +44,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error("Google Sheets API Error:", error);
     return NextResponse.json(
-      { error: "Failed to save booking data.", details: error.message },
+      { error: "Failed to save booking data."},
       { status: 500 }
     );
   }
