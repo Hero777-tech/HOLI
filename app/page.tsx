@@ -86,8 +86,8 @@ export default function Home() {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Location</h3>
-              <p className="text-lg mb-2">Celebration Ground</p>
-              <p className="text-lg">Mumbai, India</p>
+              <p className="text-lg mb-2">Police Ground</p>
+              <p className="text-lg">Silchar,Assam, India</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Includes</h3>
