@@ -54,6 +54,23 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Instagram Buttons */}
+        <div className="flex justify-center gap-8 mb-4">
+            <Button 
+              onClick={() => window.open("https://instagram.com/teamudayon2025", "_blank")}
+              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-lg px-6 py-3 rounded-md"
+            >
+              🟠 Follow Team Udayon
+            </Button>
+
+            <Button 
+              onClick={() => window.open("https://instagram.com/lifesaviors_org", "_blank")}
+              className="bg-gradient-to-r from-yellow-500 to-blue-600 hover:from-blue-600 hover:to-indigo-700 text-white text-lg px-6 py-3 rounded-md"
+            >
+              🟠 Follow LSO
+            </Button>
+          </div>
+
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto px-4 sm:px-6">
           {tickets.map((ticket) => (
             <Card
