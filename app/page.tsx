@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -33,6 +34,13 @@ export default function Home() {
           <p className="text-xl text-white/90 mb-8">
             Join us for the most colorful celebration of the year!
           </p>
+
+          {/* Logos Section
+          <div className="flex items-center justify-center gap-6 mb-4">
+            <Image src="/udayon.jpeg" alt="Udayon Logo" width={120} height={50} />
+            <span className="text-white text-3xl font-bold">✖</span>
+            <Image src="/lso.jpeg" alt="LSO Logo" width={120} height={50} />
+          </div> */}
 
           {/* Team Header */}
           <div className="bg-white/20 backdrop-blur-md rounded-xl p-6 mb-12 max-w-2xl mx-auto">
@@ -86,8 +94,8 @@ export default function Home() {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Location</h3>
-              <p className="text-lg mb-2">Police Ground</p>
-              <p className="text-lg">Silchar,Assam, India</p>
+              <p className="text-lg mb-2">Will be Revealed soon</p>
+              {/* <p className="text-lg">Silchar,Assam, India</p> */}
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Includes</h3>
