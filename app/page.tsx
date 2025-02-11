@@ -29,7 +29,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-white mb-4 leading-tight sm:text-6xl">
-            Holi Festival 2025
+          🎉 Gulal Utsav 2025
           </h1>
           <p className="text-xl text-white/90 mb-8">
             Join us for the most colorful celebration of the year!
