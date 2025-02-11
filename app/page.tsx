@@ -13,13 +13,13 @@ export default function Home() {
       type: "Single Ticket",
       price: "₹149",
       description: "Perfect for solo celebration",
-      formLink: "https://docs.google.com/forms/d/1iefQ9f1VBQBh73ndko082MTYSKdovXB-0fzb5tLF4zs/edit",
+      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSetgpfgdv8Dmf4tYdPirdocyMgHgG3Ud5YkoDeXeNCpvvA1MA/viewform?usp=dialog",
     },
     {
       type: "Couple Ticket",
       price: "₹249",
       description: "Share the joy with your partner",
-      formLink: "https://docs.google.com/forms/d/1iefQ9f1VBQBh73ndko082MTYSKdovXB-0fzb5tLF42ss",
+      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSd0i3IvOXL6ZrVMVnRpvbkT48319EcAxVKTZU3dNw4CxIvT2w/viewform?usp=dialog",
     },
   ];
 
